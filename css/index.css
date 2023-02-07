@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  list-style-type: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+nav {
+  background-color: #262626;
+}
+
+.nav-item-a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.nav-item-a:hover {
+  color: #e6e6e6;
+  transform: scale(1.1);
+}
+
+.headline {
+  background: url("../img/Headline_BG.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fafafa;
+}
+
+.mission-title,
+.vision-title {
+  color: #0d3fc2;
+}
+
+.btn-WhatAreTheBenefits {
+  background-color: #ff3d5f;
+  color: #fafafa;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-WhatAreTheBenefits:hover {
+  color: #fafafa;
+  transform: scale(1.1);
+}
+
+.btn-joinUs {
+  background-color: transparent;
+  outline: 1px solid white;
+  color: #fafafa;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-joinUs:hover {
+  background-color: #ff3d5f;
+  outline: none;
+  color: #fafafa;
+  transform: scale(1.1);
+}
+
+.building {
+  filter: grayscale(1);
+}
+
+.btn-ApplyNow {
+  border-radius: 5px;
+  background-color: #d42b53;
+  color: #f5f5f5;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-ApplyNow:hover {
+  transform: scale(1.1);
+  color: #f5f5f5;
+}
+
+.textValues {
+  color: #235cf0;
+}
+
+.textDeclarationOfPolicy {
+  background-color: #f0f0f0;
+}
+
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
